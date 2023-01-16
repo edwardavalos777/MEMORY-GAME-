@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
     cardGenerator();
     board();
   });
-  
+  //  playerLivesCount.textContent= playerLives;
   const cardGenerator = () => {
-    //We generate the object 🧑🏻‍💻
+    //We generate the object 
     let cardData = [
       { imgSrc: "./images/beatles.jpeg", id: 1, name: "beatles" },
       { imgSrc: "./images/blink182.jpeg", id: 2, name: "blink 182" },
